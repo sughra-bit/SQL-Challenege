@@ -100,7 +100,7 @@ JOIN Salaries as s on e.emp_no = s.emp_no;
 
 
 List the first name, last name, and hire date for the employees who were hired in 1986.
-_______________________________________________________________________________________
+---------------------------------------------------------------------------------------
 SELECT last_name, first_name, hire_date
 FROM employees
 WHERE hire_date like '%1986';
