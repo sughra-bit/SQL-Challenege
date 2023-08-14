@@ -11,6 +11,7 @@ SELECT last_name, first_name, hire_date
 FROM employees
 WHERE hire_date like '%1986';
 
+
 List the manager of each department along with their department number, department name,
 employee number, last name, and first name
 ----------------------------------------------------------------------------------------
