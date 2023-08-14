@@ -9,8 +9,7 @@ List the first name, last name, and hire date for the employees who were hired i
 _______________________________________________________________________________________
 SELECT last_name, first_name, hire_date
 FROM employees
-WHERE hire_date >= '1986-01-01' and hire_date <= '1986-12-31';
-
+WHERE hire_date like '%1986';
 
 List the manager of each department along with their department number, department name,
 employee number, last name, and first name
