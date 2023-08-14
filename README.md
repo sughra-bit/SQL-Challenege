@@ -12,8 +12,9 @@ titles.csv: file containing title names and IDs
 For this project, we have designed the tables to hold the data from the CSV files, import the CSV files into a SQL database, 
 and then answer questions about the data through data modeling, data engineering, and data analysis, respectively.
 
+------------------------------------------------------------
 Data Modelling through ERD shows the results that
-
+------------------------------------------------------------
 1.Employee's can be part of different departments.
 2. Employees can have different titles.
 3.Departments can have multiple managers.
