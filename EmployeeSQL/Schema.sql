@@ -52,7 +52,7 @@ SELECT * FROM dept_manager
 
 --creating a table "salaries"
 CREATE TABLE salaries(
-	emp_no INTEGER,
+	emp_no INTEGER, PRIMARY KEY
 	salary FLOAT,
 	FOREIGN KEY(emp_no) REFERENCES employees(emp_no)
 );
